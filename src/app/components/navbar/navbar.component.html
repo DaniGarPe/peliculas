@@ -1,0 +1,62 @@
+<nav class="fixed-top navbar navbar-expand-md navbar-dark bg-black">
+  <div class="container-fluid">
+  <!-- icono o nombre -->
+
+  <a class="navbar-brand d-flex" href="#">
+    <i class="bi bi-film m-1"></i>
+    <h2 class="text-light">Películas</h2>
+  </a>
+      
+  <!-- boton del menu -->
+
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- elementos del menu colapsable -->
+
+  <div class="collapse navbar-collapse col-12 col-md-auto mb-2 justify-content-center mb-md-0" id="menu">
+    <ul class="nav">
+      <li><a href="/home" class="nav-link px-2 link-light">Inicio</a></li>
+      <li><a href="/search" class="nav-link px-2 link-light">Busqueda</a></li>
+      <li><a href="#" class="nav-link px-2 disabled">Mi lista</a></li>
+      <li><a href="#" class="nav-link px-2 disabled">Peliculas</a></li>
+      <li><a href="#" class="nav-link px-2 disabled">Series</a></li>
+    </ul>
+
+    <hr class="d-md-none text-white-50">
+
+     <!-- enlaces redes sociales -->
+
+    <ul class="navbar-nav  flex-row flex-wrap text-light">
+
+     <li class="nav-item col-6 col-md-auto p-3">
+          <i class="bi bi-twitter"></i>
+          <small class="d-md-none ms-2">Twitter</small>  
+      </li>
+
+      <li class="nav-item col-6 col-md-auto p-3">
+        <i class="bi bi-instagram"></i>
+        <small class="d-md-none ms-2">Instagram</small> 
+      </li>
+
+      <li class="nav-item col-6 col-md-auto p-3">
+        <i class="bi bi-whatsapp"></i>
+        <small class="d-md-none ms-2">WhatsApp</small>
+      </li>
+
+      <li class="nav-item col-6 col-md-auto p-3">
+        <i class="bi bi-facebook"></i>
+        <small class="d-md-none ms-2">Facebook</small>
+      </li>
+
+    </ul>
+  </div>
+  <form class="d-flex">
+      <button type="button" class="btn btn-outline-danger m-2" (click)="logout()">
+        <i class="bi bi-box-arrow-left"></i>
+        Salir
+      </button>
+  </form>
+  </div>  
+</nav>

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "peliculas-2cb80": {
+      "hosting": {
+        "peliculas": [
+          "peliculas-2cb80"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "peliculas-2cb80"
+  }
+}
